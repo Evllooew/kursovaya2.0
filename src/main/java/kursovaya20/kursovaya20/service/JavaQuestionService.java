@@ -1,4 +1,4 @@
-package kursovaya20.kursovaya20.Service;
+package kursovaya20.kursovaya20.service;
 
 import kursovaya20.kursovaya20.Question;
 import kursovaya20.kursovaya20.QuestionService;
