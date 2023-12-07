@@ -4,10 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class kursovaya2Application {
+public class EmployeeCollectionWebApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(kursovaya2Application.class, args);
+		SpringApplication.run(EmployeeCollectionWebApplication.class, args);
 	}
-
 }
