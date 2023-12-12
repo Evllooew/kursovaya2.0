@@ -53,7 +53,6 @@ class EmployeeControllerTest {
         });
         verify(employeeService, times(1)).add(firstName, lastName);
     }
-
     @Test
     void removeEmployee_ValidInput_ReturnsEmployee() {
         String firstName = "John";
