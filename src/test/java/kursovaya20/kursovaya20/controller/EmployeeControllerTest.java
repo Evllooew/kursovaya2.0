@@ -9,7 +9,6 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -54,7 +53,6 @@ class EmployeeControllerTest {
         });
         verify(employeeService, times(1)).add(firstName, lastName);
     }
-
     @Test
     void removeEmployee_ValidInput_ReturnsEmployee() {
         String firstName = "John";
